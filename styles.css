@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the entire body with a background image */
+body {
+    background-image: url('images/thecreator.jpg'); /* Replace 'background.jpg' with your image file name or URL */
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-attachment: fixed; /* Fixes the background image in place */
+    font-family: 'Calibri', sans-serif;
+    margin: 0; /* Remove default margin to fill the entire viewport */
+    padding: 0;
+    color: #000; /* Set text color for the entire resume */
+    position: relative; /* Position the content relative to the body */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the content within the resume */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 3px; /* Further reduced padding */
+    background-color: #66cccc;
+    position: relative; /* Position the content relative to the body */
+    z-index: 1; /* Ensure content is above the background image */
+    margin-top: 1%;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 3px 0; /* Further reduced padding */
+    color: #fff; /* Text color for the header */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
+    position: relative; /* Position the header relative to the body */
+    z-index: 2; /* Ensure header is above the background image */
+}
+
+/* Style the contact, education, experience, skills, relevant coursework, projects, and references sections */
+section {
+    margin: 3px 0; /* Further reduced margin */
+    padding: 3px; /* Further reduced padding */
+    background-color: #66cccc; /*delete latttttttttttttttttttttttttttttttttttttttttttttt
+    position: relative; /* Position the sections relative to the body */
+    z-index: 1; /* Ensure sections are above the background image */
+}
+
+/* Style headings */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #FF6B6B;
+    font-size: 13px;
+}
+
+/* Style links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+/* Style links on hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style list items */
+li {
+    list-style: disc;
+    margin-left: 10px;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+/* Style the project links */
+#projects a {
+    color: #009900;
+    font-size: 13px;
+}
+
+/* Style the project links on hover */
+#projects a:hover {
+    color: #006600;
+}
+
+body, p, ul, li, address {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+}
+
+address {
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#objective h2 {
+    font-family: 'Playfair Display', serif;
+    color: #FF6B6B;
+    font-size: 13px;
+}
+
+#objective p {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Add a horizontal line to separate sections */
+section:not(:last-of-type) {
+    border-bottom: 1px solid #000000; /* Teal color for the line */
+    padding-bottom: 1px; /* Adjust the spacing between sections */
+    margin-bottom: 5px; /* Adjust the spacing between sections */
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
